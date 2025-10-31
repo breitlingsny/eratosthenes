@@ -1,0 +1,25 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 647cc173-1590-47e2-ae1d-40558d70377e
+  title: Eratosthenes
+  # description:
+  # keywords: []
+  authors:
+    - name: Breitling Snyder
+      affiliation: University of California, Berkeley
+  toc:
+    - file: README.md
+    - title: Notebooks
+      children:
+        - file: Eratosthenes.ipynb
+    - title: Other Files
+      children:
+        - file: test.md
+  github: https://github.com/breitlingsny/eratosthenes
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  options:
+  #   favicon: favicon.ico
+    logo: Eratosthenes.jpeg
